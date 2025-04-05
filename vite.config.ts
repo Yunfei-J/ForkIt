@@ -22,6 +22,7 @@ export default defineConfig({
         ]
       : []),
   ],
+  base: '/ForkIt/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),

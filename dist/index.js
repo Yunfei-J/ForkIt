@@ -120,6 +120,7 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
+  base: "/ForkIt/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
